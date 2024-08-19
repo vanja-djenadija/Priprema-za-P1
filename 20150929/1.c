@@ -29,19 +29,16 @@ int main()
         {
             if(prvi%i==0)
             {
-
                 ProstPrvi=0;
                 break;
             }
         }
-
 
         int drugi=prvi+2;
         for(int i =2; i*i<=drugi; i++)
         {
             if(drugi%i==0)
             {
-
                 ProstDrugi=0;
                 break;
             }

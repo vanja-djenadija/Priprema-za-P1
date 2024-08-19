@@ -38,7 +38,7 @@ int main()
 
         if(najmanja*najmanja==suma)
         {
-            printf("Suma i kvadrat su jednaki i to je bro %d",i);
+            printf("Suma i kvadrat su jednaki i to je bro %d\n",i);
         }
     }
 

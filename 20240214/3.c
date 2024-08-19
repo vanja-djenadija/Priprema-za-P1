@@ -35,7 +35,7 @@ void ucitaj(REZERVACIJA *r)
 {
     printf("REZERVACIJA\n");
     printf("Naziv restorana: ");
-    scanf("%s", r->restoran);
+    scanf("%s", r->restoran); // (*r).restoran
     printf("Broj osoba: ");
     scanf("%d", &r->broj_osoba);
     printf("Datum: ");
@@ -55,7 +55,7 @@ void dodaj(REZERVACIJA **p, int n, REZERVACIJA r)
 
     *p = novi_niz;
 
-    (*p)[n] = r;
+    (*p)[n] = r; // niz[n] = r;
 }
 
 void ispisi(REZERVACIJA *niz, int n, DATUM datum)
